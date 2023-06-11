@@ -4,28 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Manage landing page</title>
 </head>
 
 <body>
   <main>
+    <nav class="navbar">
+      <img src="./images/logo.svg" alt="logo">
+      <ul class="nav-links">
+        <li> Pricing </li>
+        <li> Product </li>
+        <li> About Us </li>
+        <li> Careers </li>
+        <li> Community </li>
+      </ul>
+      <a class="button" href="#">Get Started</a>
+      <div>
+        <img class="humberger" src="./images/icon-hamburger.svg" alt="humberger">
+      </div>
+    </nav>
     <header>
-      <nav class="navbar">
-        <img src="./images/logo.svg" alt="logo">
-        <ul class="nav-links hidden">
-          <li> Pricing </li>
-          <li> Product </li>
-          <li> About Us </li>
-          <li> Careers </li>
-          <li> Community </li>
-        </ul>
-        <a class="button hidden" href="#">Get Started</a>
-        <div>
-          <img class="humberger" src="./images/icon-hamburger.svg" alt="humberger">
-        </div>
-      </nav>
       <div class="hero">
         <div class="hero-right">
           <img src="./images/illustration-intro.svg" alt="hero-image">
@@ -104,32 +104,34 @@
     </div>
   </main>
   <footer>
-    <form>
-      <input class="input" type="email" name="text" id="email" placeholder="Updates in your inbox...">
-      <input class="btn-go" type="button" value="Go">
-    </form>
-    <ul class="nav-footer">
-      <div>
-        <li> Home </li>
-        <li> Pricing </li>
-        <li> Products </li>
-        <li> About Us </li>
+    <div class="footer">
+      <form>
+        <input class="input" type="email" name="text" id="email" placeholder="Updates in your inbox...">
+        <input class="btn-go" type="button" value="Go">
+      </form>
+      <ul class="nav-footer">
+        <div>
+          <li> Home </li>
+          <li> Pricing </li>
+          <li> Products </li>
+          <li> About Us </li>
+        </div>
+        <div class="footer-nav-right">
+          <li> Careers </li>
+          <li> Community </li>
+          <li> Privacy Policy </li>
+        </div>
+      </ul>
+      <div class="logo">
+        <div class="icons">
+          <img src="./images/icon-facebook.svg" alt="facebook-icon">
+          <img src="./images/icon-youtube.svg" alt="youtube-icon">
+          <img src="./images/icon-twitter.svg" alt="twitter-icon">
+          <img src="./images/icon-pinterest.svg" alt="pinterest-icon">
+          <img src="./images/icon-instagram.svg" alt="instagram-icon">
+        </div>
+        <img class="logoo" src="./images/logo.svg" alt="logo">
       </div>
-      <div>
-        <li> Careers </li>
-        <li> Community </li>
-        <li> Privacy Policy </li>
-      </div>
-    </ul>
-    <div class="logo">
-      <div class="icons">
-        <img src="./images/icon-facebook.svg" alt="facebook-icon">
-        <img src="./images/icon-youtube.svg" alt="youtube-icon">
-        <img src="./images/icon-twitter.svg" alt="twitter-icon">
-        <img src="./images/icon-pinterest.svg" alt="pinterest-icon">
-        <img src="./images/icon-instagram.svg" alt="instagram-icon">
-      </div>
-      <img class="logoo" src="./images/logo.svg" alt="logo">
     </div>
     <p class="copyright"> Copyright 2023. All Rights Reserved </p>
   </footer>
