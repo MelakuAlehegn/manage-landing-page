@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -21,6 +22,12 @@ Users should be able to:
 - Receive an error message when the newsletter sign up `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
+
+### Screenshot
+
+Lighthouse screenshot
+
+[Screenshot](images/lighthouse.PNG)
 
 ### Links
 
