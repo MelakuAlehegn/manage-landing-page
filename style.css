@@ -466,8 +466,8 @@ form {
         margin-top: 2rem;
         background: url(./images/bg-tablet-pattern.svg);
         background-repeat: no-repeat;
-        background-size: 700px 700px;
-        background-position: -300px 250px;
+        background-size: 500px 500px;
+        background-position: -290px 150px;
         z-index: 1;
     }
 
@@ -542,7 +542,7 @@ form {
     }
 
     .footer-hero h2 {
-        padding-block: 4rem;
+        padding-block: 5rem;
         text-align: left;
         width: 40%;
         font-size: 35px;
