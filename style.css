@@ -40,7 +40,6 @@ main {
 }
 
 .hero-right img {
-    width: 80vw;
     margin-bottom: 20px;
 }
 
@@ -225,10 +224,14 @@ p {
     font-weight: 700;
 }
 
+.testimonial-cards {
+    display: flex;
+    flex-direction: column;
+}
+
 .cards {
     margin-block: 3rem;
     background-color: var(--very-light-grey);
-    margin-inline: 20px;
     padding-bottom: 2rem;
     text-align: center;
 }
@@ -238,8 +241,8 @@ p {
 }
 
 .cards img {
-    width: 5rem;
-    transform: translate(0px, -40px);
+    width: 65px;
+    transform: translate(0px, -30px);
 }
 
 .cards p {
@@ -503,9 +506,13 @@ form {
         margin-bottom: 2rem;
     }
 
+    .testimonial-cards {
+        flex-direction: row;
+    }
+
     .cards {
         margin-block: 2rem;
-        margin-inline: 0px;
+        margin-left: 30px;
         padding-bottom: .2rem;
         width: 600px;
     }
@@ -519,7 +526,7 @@ form {
     }
 
     .cards img {
-        width: 4rem;
+        width: 70px;
         margin: 0;
         transform: translate(0px, -30px);
     }
@@ -577,7 +584,7 @@ form {
     }
 
     .logoo {
-        width: 10rem;
+        width: 200px;
     }
 
     .nav-footer li {
@@ -593,8 +600,13 @@ form {
         margin-left: 2rem;
     }
 
+    .icons img {
+        width: 30px;
+    }
+
     .copyright {
         text-align: right;
         margin-right: 3rem;
     }
+
 }
