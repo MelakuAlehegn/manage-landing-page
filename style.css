@@ -185,7 +185,7 @@ p {
 }
 
 .content-right h3 {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--dark-blue);
     background-color: var(--very-pale-red);
     padding-block: 13px;
@@ -484,6 +484,7 @@ form {
     }
 
     .content-right h3 {
+        font-size: 16px;
         background-color: white;
         font-weight: 700;
     }
